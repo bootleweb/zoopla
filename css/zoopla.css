@@ -51,6 +51,22 @@ article {
     margin-left: 6em;
 }
 
+section {
+    background-color: #FFC;
+}
+
+section h2 {
+    background-color: #FF8;
+}
+
+section p {
+    display: none;
+}
+
+section.active p {
+    display: inline;
+}
+
 footer {
     text-align: center;
     padding: 1em 0;
