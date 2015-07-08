@@ -1,0 +1,69 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    height: 380px;
+    background-image: url('../img/800px-Zoopla.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+nav.horizontal {
+    background: #5D1760;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav.horizontal a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 2em;
+}
+
+nav.sidebar {
+    float: left;
+    width: 5em;
+}
+
+nav.sidebar a {
+    display: block;
+    background: #5D1760;
+    border-radius: 0.5em;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    text-decoration: none;
+}
+
+nav.sidebar a:hover {
+    background: #6D2770;
+}
+
+nav.horizontal a:hover {
+    background: #6D2770;
+}
+
+article {
+    min-height: 20em;
+    margin-left: 6em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    background: #5D1760;
+    border-radius: 0.5em;
+    color: white;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background: #6D2770;
+}
